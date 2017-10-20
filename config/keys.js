@@ -8,9 +8,9 @@
 // }
 
 module.exports = {
-  googleClientID:
-    '904303509470-m74v01njnfe4cr0utqo5hgoh6gd04ov6.apps.googleusercontent.com',
-  googleClientSecret: '1mEMlFca_7NhJls3e_POSgPY',
-  mongoURI: 'mongodb://kainoa:password@ds019956.mlab.com:19956/emaily-dev',
-  cookieKey: ';alskdfj;alsdkjf;asdlkfasd;fjkasd;lkfj;kljkfdjghs;dflkgj',
+  googleClientID: process.env.GOOGLE_CLIENT_ID,
+  googleClientSecret: process.env.GOOGLE_CLIENT_SECRET,
+  mongoURI: process.env.MONGO_URI,
+  cookieKey: process.env.COOKIE_KEY,
 }
+
