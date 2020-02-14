@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, text } from 'react'
 import { connect } from 'react-redux'
 import { fetchSurveys } from '../../actions'
 
@@ -21,8 +21,8 @@ class SurveyList extends Component {
             </p>
           </div>
           <div className="card-action">
-            <a>Yes: {survey.yes}</a>
-            <a>No: {survey.no}</a>
+            <text>Yes: {survey.yes}</text>
+            <text>No: {survey.no}</text>
           </div>
         </div>
       )
