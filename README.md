@@ -3,6 +3,10 @@ if this is not your first time downloading this repo
     - npm run dev
 
 
+To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+
+
 if this is the first time downloading repo
 - cd client
 - npm i 
